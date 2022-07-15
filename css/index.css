@@ -1,8 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+   background-color: #ece1b4;
+
+}
+
 h1 {
-    color: rgb(172, 115, 7); 
-    font-size: 50px; 
-    text-align: center;
- }
+   text-align: center;
+	font-size: 3em;
+	letter-spacing: 1px;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	background: url('../images/abc.png');
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: text 6.5s linear infinite;
+}
+
+@keyframes text {
+	from {
+		background-position: 0% 50%;
+	}
+	to {
+		background-position: 100% 50%;
+	}
+}
 
  a {
     background-color: rgb(172, 115, 7);
@@ -15,16 +43,19 @@ h1 {
  .nenorocire {
     margin-top: 60px;
     text-align: center;
- }
+   }
+ 
 
  h2 {
     color: rgb(172, 115, 7);
-    font-size: 20px
+    font-size: 15px;
+    text-align: center;
+    
  }
 
  h3 {
     color: rgb(172, 115, 7);
-    font-size: 15px;
+    font-size: 11px;
     text-align: center;
 
  }
